@@ -106,8 +106,47 @@ body {
   padding: 40px 20px;
 }
 
+.chevron {
+  color: #fff;
+  font-size: 24px;
+  opacity: 0.8;
+  margin-top: 2px;
+  margin-right: 4px;
+  margin-left: -8px;
+}
+
 .avatar img {
   width: 35px;
   height: 35px;
   border-radius: 50%;
+  margin-right: 14px;
+  margin-top: 2px;
+  border: 2px solid var(--White);
+}
+
+.name {
+  color: var(--White);
+  font-weight: 500;
+  margin-bottom: 2px;
+  opacity: 0.8;
+}
+
+.status {
+  font-size: 11px;
+  color: var(--White);
+  opacity: 0.4;
+}
+
+.dots {
+  position: absolute;
+  color: var(--White);
+  opacity: 0.8;
+  margin-left: 275px;
+  font-size: 14px;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  padding: ;
 }
