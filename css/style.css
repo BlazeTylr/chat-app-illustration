@@ -287,4 +287,5 @@ form {
   top: 12px;
   right: 4px;
   color: var(--Very-Dark-Desaturated-Violet);
+  cursor: pointer;
 }
