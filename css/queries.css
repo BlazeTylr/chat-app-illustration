@@ -1,0 +1,17 @@
+@media (max-width: 480px) {
+  /* .mobile {
+    width: 280px;
+    height: 10%;
+    border: 10px solid #fff;
+    border-radius: 32px;
+    box-shadow: 0 10px 20px var(--Grayish-Blue);
+  }
+  .dots {
+    margin-left: 180px;
+    font-size: 14px;
+  } */
+
+  .mobile {
+    margin: 40px auto;
+  }
+} ;
