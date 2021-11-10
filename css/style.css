@@ -336,3 +336,7 @@ h1 {
   border-radius: 1000px 0 0 0;
   background: rgba(128, 128, 128, 0.06);
 }
+
+input[type="text"] {
+  -webkit-appearance: none;
+}
