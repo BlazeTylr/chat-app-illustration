@@ -262,7 +262,7 @@ input:focus {
   outline: none;
 }
 
-form {
+.form-input {
   display: flex;
   margin-top: 8px;
 }
