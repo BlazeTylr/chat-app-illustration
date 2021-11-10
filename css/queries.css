@@ -24,6 +24,9 @@
   .explain p {
     font-size: 14px;
   }
+  .white-stripe {
+    top: -1px;
+  }
 
   .main {
     gap: 100px;
@@ -54,6 +57,10 @@
   h1 {
     font-size: 32px;
   }
+  .white-stripe {
+    top: -2px;
+  }
+
   .purple {
     width: 40%;
     height: 70vh;
@@ -66,6 +73,7 @@
     height: 60vh;
     bottom: 0;
     right: 0;
+    border-radius: 0 0 1000px 0;
   }
 }
 
@@ -107,5 +115,6 @@
     bottom: 0;
     right: 0;
     z-index: -1;
+    border-radius: 1000px 0 0 0;
   }
 }
