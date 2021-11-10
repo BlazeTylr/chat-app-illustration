@@ -1,8 +1,38 @@
-@media (max-width: 480px) {
-  .mobile {
-    overflow-x: hidden;
-    /* margin: 40px auto; */
-    margin-left: 5;
+@media (max-width: 1024px) {
+  .explain {
     width: 320px;
+  }
+  h1 {
+    font-size: 36px;
+  }
+
+  .explain p {
+    font-size: 14px;
+  }
+
+  .main {
+    gap: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    gap: 60px;
+  }
+  .explain {
+    width: 260px;
+  }
+  h1 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .explain {
+    -ms-flex-align: center;
   }
 }
