@@ -95,4 +95,17 @@
   .white-stripe {
     top: -2px;
   }
+
+  .purple {
+    width: 50%;
+    height: 70vh;
+    z-index: -1;
+  }
+
+  .grey {
+    width: 50%;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
 }
