@@ -262,11 +262,6 @@ input:focus {
   outline: none;
 }
 
-.form-input {
-  display: flex;
-  margin-top: 8px;
-}
-
 .input-field {
   position: relative;
   display: flex;
