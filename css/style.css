@@ -74,7 +74,6 @@ body {
   height: 600px;
   border: 10px solid #fff;
   border-radius: 32px;
-  /* margin: auto; */
   box-shadow: 0 10px 20px var(--Grayish-Blue);
   background-color: var(--Light-Grayish-Violet);
 }
@@ -283,11 +282,11 @@ form {
   cursor: pointer;
 }
 
-.purple {
+/* .purple {
+  position: absolute;
   width: 35%;
   height: 800px;
   background: linear-gradient(var(--Light-Magenta), var(--Light-Violet));
-  position: absolute;
   top: -100px;
   left: -60px;
   border-radius: 0 0 300px 200px;
@@ -295,18 +294,19 @@ form {
 }
 
 .grey {
+  position: absolute;
   width: 35%;
   height: 700px;
   background: rgba(128, 128, 128, 0.06);
-  position: absolute;
   top: 150px;
   right: -140px;
   border-radius: 300px 200px 0 0;
   z-index: -1;
-}
+} */
 
 .section {
-  height: 800px;
+  position: relative;
+  height: 100%;
 }
 
 .main {
@@ -314,7 +314,7 @@ form {
   gap: 120px;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .explain {
