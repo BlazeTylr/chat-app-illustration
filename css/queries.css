@@ -91,4 +91,8 @@
   .explain p {
     font-size: 18px;
   }
+
+  .white-stripe {
+    top: -2px;
+  }
 }
