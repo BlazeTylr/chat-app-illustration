@@ -75,8 +75,6 @@ body {
   border: 10px solid #fff;
   border-radius: 32px;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
-
-  /* box-shadow: 0 10px 20px var(--Grayish-Blue); */
   background-color: var(--Light-Grayish-Violet);
 }
 
@@ -245,22 +243,6 @@ body {
   margin-left: -40px !important;
 }
 
-/* form {
-  display: flex;
-  margin-top: 8px;
-}
-
-input {
-  position: absolute;
-  font-size: 12px;
-  width: 100%;
-  padding: 12px 25px 12px;
-  border-radius: 35px;
-  border: 1px solid var(--Light-Grayish-Violet);
-  opacity: 0.6;
-}
-*/
-
 input:focus {
   outline: none;
 }
@@ -292,8 +274,6 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  /* margin-top: 100px; */
 }
 
 .main {
