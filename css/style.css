@@ -259,6 +259,7 @@ input {
   border: 1px solid var(--Light-Grayish-Violet);
   opacity: 0.6;
 }
+*/
 
 input:focus {
   outline: none;
@@ -266,9 +267,8 @@ input:focus {
 
 .input-field {
   position: relative;
-  display: flex;
-} */
-
+  /* display: flex; */
+}
 input {
   width: 100%;
   padding: 12px 25px 12px;
@@ -279,9 +279,8 @@ input {
 
 .arrow {
   position: absolute;
-  /* margin-left: -53px; */
   font-size: 34px;
-  bottom: 8px;
+  bottom: 4px;
   right: 8px;
   color: var(--Very-Dark-Desaturated-Violet);
   cursor: pointer;
