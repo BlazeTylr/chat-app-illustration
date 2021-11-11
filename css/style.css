@@ -71,7 +71,7 @@ body {
 .mobile {
   position: relative;
   width: 300px;
-  height: 600px;
+  height: 592px;
   border: 10px solid #fff;
   border-radius: 32px;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
@@ -245,7 +245,7 @@ body {
   margin-left: -40px !important;
 }
 
-form {
+/* form {
   display: flex;
   margin-top: 8px;
 }
@@ -267,14 +267,22 @@ input:focus {
 .input-field {
   position: relative;
   display: flex;
+} */
+
+input {
+  width: 100%;
+  padding: 12px 25px 12px;
+  border-radius: 35px;
+  border: 1px solid var(--Light-Grayish-Violet);
+  opacity: 0.6;
 }
 
 .arrow {
   position: absolute;
-  margin-left: -53px;
+  /* margin-left: -53px; */
   font-size: 34px;
-  top: 12px;
-  right: 4px;
+  bottom: 8px;
+  right: 8px;
   color: var(--Very-Dark-Desaturated-Violet);
   cursor: pointer;
 }
