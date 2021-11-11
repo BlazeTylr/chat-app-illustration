@@ -48,6 +48,10 @@
 }
 
 @media (max-width: 768px) {
+  .section {
+    min-height: 700px;
+  }
+
   .main {
     gap: 60px;
   }
@@ -70,10 +74,10 @@
 
   .grey {
     width: 40%;
-    height: 60vh;
+    height: 60%;
     bottom: 0;
     right: 0;
-    border-radius: 0 0 1000px 0;
+    border-radius: 1000px 0 0 0;
   }
 }
 
